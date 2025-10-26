@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fa;
+  color: #1e1e1e;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #0a2540;
+  color: white;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.btn, .btn-outline, .btn-large {
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn {
+  background: linear-gradient(90deg, #0a2540, #00c6a7);
+  color: white;
+  border: none;
+}
+
+.btn-outline {
+  border: 2px solid #00c6a7;
+  color: #00c6a7;
+  background: transparent;
+}
+
+.btn-large {
+  display: inline-block;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #0a2540, #00c6a7);
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.inputs input {
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.dashboard {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.auth {
+  max-width: 350px;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+}
